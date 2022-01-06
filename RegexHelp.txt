@@ -1,0 +1,33 @@
+Identifiers: (To look out for something)
+\d      Any Number
+\D      Anything but a Number
+\s      Space
+\S      Anything but a Space
+\w      Any Character
+\W      Anything but a Character
+.       any character, except for a newline
+\b      The whitespace around Words
+\.      a period
+
+Modifiers: (To look for the count)
+{1,3}   Expecting 1-3 ex. \d{1,3}
++       Match 1 or more
+?       Match 0 or 1
+*       Match 0 or more
+$       Match the end of a string
+^       Match the beginning of a string
+|       Either or
+[]      range or "variance" [A-Z], [A-Za-z], [1-5], [1-5a-eA-Z]
+{n}     expecting "n" amount ex. \d{4}
+
+White Space Characters:
+\n      new line
+\s      space
+\t      tab
+\e      escape
+\f      form feed
+\r      carriage return
+
+DONT FORGET THE BELOW CHARACTERS (Use Escape characters to use them)
+. + * ? [ ] $ ^ ( ) { } | \
+
